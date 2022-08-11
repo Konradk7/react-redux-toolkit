@@ -1,4 +1,4 @@
-const TODOS_ACTIONS_TYPES = {
+export const TODOS_ACTIONS_TYPES = {
     ADD: "ADD",
     UPDATE: "UPDATE",
     DELETE: "DELETE",

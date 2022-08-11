@@ -18,3 +18,5 @@ const updateTodo = (id, message) => ({
 const removeAllTodos = () => ({
     type: TODOS_ACTIONS_TYPES.REMOVE_ALL
 })
+
+export default { addTodo, deleteTodo, updateTodo, removeAllTodos };

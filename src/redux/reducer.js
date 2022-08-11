@@ -1,11 +1,11 @@
-
+import { TODOS_ACTIONS_TYPES } from "./actionTypes";
 
 const defaultState = {
     todos: [],
     example: { isChanged: false},
 }
 
-const reducer = (state = defaultState, action) => {
+export const reducer = (state = defaultState, action) => {
     switch (action.type) {
         case TODOS_ACTIONS_TYPES.ADD:
             return {...state, todos: [...state.todos, action.payload]};
