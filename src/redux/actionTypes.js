@@ -1,0 +1,6 @@
+const TODOS_ACTIONS_TYPES = {
+    ADD: "ADD",
+    UPDATE: "UPDATE",
+    DELETE: "DELETE",
+    REMOVE_ALL: "REMOVE_ALL",
+}
