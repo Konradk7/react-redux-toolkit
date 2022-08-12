@@ -33,6 +33,44 @@ body {
     color: darkmagenta;
   }
 
+  &--add-todo {
+    padding-bottom: 20px;
+    text-align: center;
+    width: 750px;
+    border-bottom: 1px solid black;
+
+    button {
+      padding: 17px 17px 13px 17px;
+      border-radius: 0;
+      border: 2px solid black;
+      border-left: none;
+      box-shadow: 0 0 3px 0 black;
+      font-weight: bold;
+      background: darken(wheat, 20%);
+      transition: 100ms;
+      &:active {
+        transform: scale(1.1);
+        border: 2px solid black;
+        background: darken(wheat, 25%);
+      }
+    }
+
+    input {
+      padding: 11px 80px;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: 0 0 3px 0 black;
+      border: 2px solid black;
+      font-size: 20px;
+
+      &::placeholder {
+        font-family: -apple-system;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+
   &--todos {
     li {
       display: flex;
@@ -41,6 +79,7 @@ body {
       justify-content: space-between;
       width: 700px;
     }
+
     h3 {
       font-size: 30px;
       font-family: "Abyssinica SIL";
@@ -53,9 +92,11 @@ body {
 
 
     }
+
     button {
 
     }
+
     .buttons {
       display: flex;
       flex-direction: column;

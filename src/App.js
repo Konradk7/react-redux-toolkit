@@ -6,6 +6,10 @@ function App() {
         <div className="App">
             <div className="app_container">
                 <h1 className="app_container--title">Todos tasks</h1>
+                <div className="app_container--add-todo">
+                    <input type="text" placeholder="Write your task"/>
+                    <button>Add Todo</button>
+                </div>
                 <div className="app_container--todos">
                     <ul>
                         <li>
