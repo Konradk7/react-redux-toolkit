@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './sass/App.scss';
 
 function App() {
   return (
     <div className="App">
-        <div>
-          <h1>Todos tasks</h1>
-          <div>
+        <div className="app_container">
+          <h1 className="app_container--title">Todos tasks</h1>
+          <div className="app_container--todos">
             <ul>
               <li>
                 <h3>Task 1</h3>
